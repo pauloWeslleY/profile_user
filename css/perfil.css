@@ -1,7 +1,7 @@
 #profile-container {
   max-width: 600px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@ img {
 }
 
 h1 {
-  color: #333;
+  color: var(--gray);
 }
 
 p {
