@@ -1,0 +1,52 @@
+@use './variables/colors';
+
+$table-border-color: colors.$blue;
+$table-bg-color: colors.$white-100;
+$table-header-bg-color: colors.$blue;
+
+$table-cell-padding: 8px;
+$table-cell-border-width: 1px;
+$table-cell-border-color: colors.$federal-blue;
+
+$table-header-font-size: 14px;
+$table-header-font-weight: bold;
+
+$table-body-font-size: 14px;
+
+$table-footer-bg-color: colors.$blue;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: $table-cell-border-width solid $table-border-color;
+  background-color: $table-bg-color;
+
+  thead {
+    background-color: $table-header-bg-color;
+
+    td {
+      padding: $table-cell-padding;
+      border: $table-cell-border-width solid $table-cell-border-color;
+      font-size: $table-header-font-size;
+      font-weight: $table-header-font-weight;
+    }
+  }
+
+  tbody {
+    td {
+      padding: $table-cell-padding;
+      border: $table-cell-border-width solid $table-cell-border-color;
+      font-size: $table-body-font-size;
+    }
+  }
+
+  tfoot {
+    background-color: $table-footer-bg-color;
+
+    td {
+      padding: $table-cell-padding;
+      border: $table-cell-border-width solid $table-cell-border-color;
+      font-size: $table-body-font-size;
+    }
+  }
+}

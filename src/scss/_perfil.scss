@@ -1,0 +1,41 @@
+@use './variables/index';
+
+#profile-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: index.$white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: index.$blue;
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    a {
+      color: index.$pacific-cyan;
+      font-size: 1.2em;
+
+      &:hover {
+        color: index.$federal-blue;
+      }
+    }
+  }
+}

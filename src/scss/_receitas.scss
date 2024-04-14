@@ -1,0 +1,52 @@
+@use './variables/colors';
+
+.heading {
+  background-color: colors.$gray;
+  color: colors.$white;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    color: colors.$white;
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+
+  .recipe {
+    list-style-type: none;
+    margin-bottom: 30px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 1.45em;
+
+
+      img {
+        object-fit: cover;
+        height: 15rem;
+        width: 25rem;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: colors.$gray;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    color: colors.$white;
+    font-weight: 500;
+  }
+}

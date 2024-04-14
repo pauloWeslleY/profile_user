@@ -1,0 +1,13 @@
+{
+  "name": "profile_user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch --style=compressed src/scss/index.scss:assets/styles/main.min.css",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -2,13 +2,30 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minhas Receitas</title>
-  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./assets/styles/main.min.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <div class="nav-bar">
+    <nav>
+      <ul>
+        <li><a href="/index.html">Perfil</a></li>
+        <li><a href="/tabela.html">Tabela</a></li>
+        <li><a href="/minhas_receitas.html">Receitas</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <header class="heading">
     <h1>Minhas Receitas</h1>
   </header>
@@ -16,21 +33,29 @@
   <div class="container">
     <ul class="recipe">
       <li>
-        <h2>Torta de Frango</h2>
         <img src="https://catracalivre.com.br/wp-content/uploads/2023/11/torta-frango.jpg" alt="Torta de frango">
-        <p>Uma saborosa torta de frango.</p>
+        <div class="description">
+          <h2>Torta de Frango</h2>
+          <p>Uma saborosa torta de frango.</p>
+        </div>
       </li>
       <li>
-        <h2>Bolo de Fubá</h2>
         <img
           src="https://s2-receitas.glbimg.com/tk4UadXYNk6-FlMROKkfvolFwTY=/0x0:1000x667/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/Q/C/2DeqRTSI2oR5wVBFVVOw/delicious-cornmeal-cake-traditional-brazilian-cake.jpg"
           alt="Bolo de Fubá">
-        <p> Um bolo de fubá fofinho e quentinho.</p>
+
+        <div class="description">
+          <h2>Bolo de Fubá</h2>
+          <p> Um bolo de fubá fofinho e quentinho.</p>
+        </div>
       </li>
       <li>
-        <h2>Feijoada</h2>
         <img src="https://istoe.com.br/wp-content/uploads/2022/06/feij.jpg?x24287" alt="Feijoada">
-        <p>Uma deliciosa feijoada, com muito tempero e acompanhamentos.</p>
+
+        <div class="description">
+          <h2>Feijoada</h2>
+          <p>Uma deliciosa feijoada, com muito tempero e acompanhamentos.</p>
+        </div>
       </li>
     </ul>
   </div>

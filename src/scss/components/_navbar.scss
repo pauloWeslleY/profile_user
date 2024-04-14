@@ -1,0 +1,25 @@
+@use '../variables/colors';
+
+.nav-bar {
+  background-color: colors.$light-cyan;
+
+  nav {
+    padding: 1rem;
+
+    ul {
+      list-style: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 1.745rem;
+
+      li a {
+        font-size: 1.75em;
+        font-weight: 600;
+        color: colors.$gray;
+      }
+    }
+  }
+}

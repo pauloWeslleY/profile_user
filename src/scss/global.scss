@@ -1,0 +1,29 @@
+@use './variables/index';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  ::-webkit-scrollbar {
+    width: 0.65rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: index.$white-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: index.$pacific-cyan;
+    border-radius: 2.2rem;
+  }
+}
+
+body {
+  font-family: index.$font-open-sans;
+  background-color: index.$white-100;
+}
+
+a {
+  text-decoration: none;
+}
